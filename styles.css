@@ -1,0 +1,78 @@
+html {
+    box-sizing: border-box;
+}
+
+.content {
+    max-width: 1024px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/* Приветствие */
+
+#title {
+    color: green;
+    font-size: 45px;
+    font-style: italic;
+    margin: 70px 0px 30px 50px;
+}
+
+
+/* Поле ввода и кнопка*/
+
+
+.input_list {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 50px 0px 50px 50px;
+}
+
+
+#input {
+    width: 40%;
+    height: 40px;     
+    appearance: none; 
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+
+.button_style {
+    padding: 8px;
+    color: black;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 300ms linear;
+}
+
+
+.button_style:hover {
+    background-color: #7db6d4;
+}
+
+
+/* Список дел */
+
+#list {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 700;
+    
+}
+
+
+/* Можно ввести только 5 дел */
+
+#error {
+    color: red;
+    font-size: 32px;
+    margin: 50px 0px 30px 50px;
+}
